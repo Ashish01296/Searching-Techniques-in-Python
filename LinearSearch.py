@@ -12,8 +12,11 @@ c = [1,3,5,7,9,11]
 
 b = linear_search(c,6,11)
 
-print("The element at index number is: ",b)
 
+if b== -1:
+    print("Element Doesn't present in array")
+else:
+    print("The element at index number is:",b)
 
 
 #output
